@@ -2,9 +2,9 @@
 
 out=$(./hello.sh)
 
-# checking out == hello
+# checking out == Hello
 
-if ["${out}" == "hello"];then
+if ["${out}" == "Hello"];then
 	echo "GOOD: Test Passed!"
 else 
 	echo "BAD: Test Failed!"
