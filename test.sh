@@ -1,12 +1,16 @@
 #!/usr/bin/env bash
 
-out=$(./hello.sh)
+output=$(bash hello.sh)
 
-# checking out == Hello
+echo $output
 
-if ["${out}" == "Hello"];then
+# checking if variable out == Hello
+
+if [ $output==Hello ]; 
+then
 	echo "GOOD: Test Passed!"
 else 
 	echo "BAD: Test Failed!"
 	exit 1
 fi
+
