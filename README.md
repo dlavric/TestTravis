@@ -1,6 +1,6 @@
 ## This repository is made for the purpose of testing how Travis works
 
-Repository print Hello on the screen and a script tests if Hello has been printed or not on the screen.
+Repository prints Hello on the screen and a script tests if Hello has been printed or not on the screen.
 
 ## Pre-Requirements
 
