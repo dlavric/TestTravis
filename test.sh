@@ -6,7 +6,7 @@ echo $output
 
 # checking if variable out == Hello
 
-if [ $output==Hello ]; 
+if [ "${output}" == "Hello" ]; 
 then
 	echo "GOOD: Test Passed!"
 else 
