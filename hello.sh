@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
 
-# Print Hello 
-echo Hello
-
-
-
-
+# print hello 
+echo hello

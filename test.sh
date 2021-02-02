@@ -2,16 +2,13 @@
 
 output=$(bash hello.sh)
 
-echo $output
-
-# checking if variable out == Hello
-
-if [ "${output}" == "Hello" ]; 
+# checking if variable out == hello
+if [ "${output}" == "hello" ]; 
 then
-	echo "GOOD: Test Passed!"
+	echo "GOOD: test passed!"
         exit 0
 else 
-	echo "BAD: Test Failed!"
+	echo "BAD: test failed!"
 	exit 1
 fi
 

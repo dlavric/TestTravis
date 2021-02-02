@@ -1,12 +1,23 @@
 ## This repository is made for the purpose of testing how Travis works
 
-Repository prints Hello on the screen and a script tests if Hello has been printed or not on the screen.
+Script `hello.sh` prints `hello`
 
-## Pre-Requirements
+Script `test.sh` checks the output of `hello.sh` is `hello`
 
-- Log in to [Travis](https://travis-ci.com/) with your GitHub account
+## How to use this repo
 
-- Sync your GitHub repositories with Travis
+- clone this repo
+
+```shell
+git clone https://github.com/dlavric/TestTravis.git
+cd TestTravis
+```
+
+- run `hello.sh`
+
+```shell
+bash hello.sh
+```
 
 The repository includes:
 
